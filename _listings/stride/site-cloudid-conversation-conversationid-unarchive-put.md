@@ -37,6 +37,7 @@ paths:
       - conversation
       - conversation
       - unarchive
+      - archives
 definitions: []
 x-collection-name: Stride
 x-streamrank:
