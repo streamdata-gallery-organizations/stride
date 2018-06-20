@@ -7,10 +7,10 @@ description: Stride is a cloud-based team business communication and collaborati
   as well as Android, iOS smartphones, and tablets
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/atlassian-stride-logo.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Stride
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/apis.md
 specificationVersion: "0.14"
 apis:
