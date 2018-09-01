@@ -4,9 +4,11 @@ x-collection-name: Stride
 x-complete: 0
 info:
   title: Stride Get conversation history
-  description: "Authentication required, with scope participate:conversation\n\nThis
-    method returns messages after/before a given messageIDs or/and timestamps.\nIf
-    these parameters are omitted the method returns conversation\u2019s latest messages."
+  description: |-
+    Authentication required, with scope participate:conversation
+
+    This method returns messages after/before a given messageIDs or/and timestamps.
+    If these parameters are omitted the method returns conversation???s latest messages.
   version: 1.0.0
 host: api.atlassian.com
 basePath: /
@@ -284,10 +286,11 @@ paths:
   /site/{cloudId}/conversation/{conversationId}/message:
     get:
       summary: Get conversation history
-      description: "Authentication required, with scope participate:conversation\n\nThis
-        method returns messages after/before a given messageIDs or/and timestamps.\nIf
-        these parameters are omitted the method returns conversation\u2019s latest
-        messages."
+      description: |-
+        Authentication required, with scope participate:conversation
+
+        This method returns messages after/before a given messageIDs or/and timestamps.
+        If these parameters are omitted the method returns conversation???s latest messages.
       operationId: SiteConversationMessageByCloudIdAndConversationIdGet
       x-api-path-slug: sitecloudidconversationconversationidmessage-get
       parameters:

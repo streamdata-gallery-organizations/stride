@@ -9,161 +9,177 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stri
 x-kinRank: "8"
 x-alexaRank: "40723"
 tags: Stride
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-31"
+modified: "2018-08-31"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stride Send app configuration updates
-  x-api-slug: stride
+- name: Stride - Send app configuration updates
+  x-api-slug: appmodulechatconversationchatconfigurationkeystate-post
   description: |-
     Post app configuration updates telling the.
 
     Authentication required.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////app/module/chat/conversation/chat:configuration/{key}/state
-  tags: Messaging,App, Module, Chat, Conversation, Chat, Configuration, Key, State
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/appmodulechatconversationchatconfigurationkeystate-post-openapi.md
-- name: Stride Send glance updates
-  x-api-slug: stride
+- name: Stride - Send glance updates
+  x-api-slug: appmodulechatconversationchatglancekeystate-post
   description: |-
     Post glance updates which will be pushed for all users within the specified context.
 
     Authentication required.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////app/module/chat/conversation/chat:glance/{key}/state
-  tags: Messaging,App, Module, Chat, Conversation, Chat, Glance, Key, State
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/appmodulechatconversationchatglancekeystate-post-openapi.md
-- name: Stride Get conversation list for site
-  x-api-slug: stride
+- name: Stride - Get conversation list for site
+  x-api-slug: sitecloudidconversation-get
   description: Authentication required, with scope participate:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation
-  tags: Messaging,Site, Cloud, Conversation
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversation-get-openapi.md
-- name: Stride Create conversation
-  x-api-slug: stride
+- name: Stride - Create conversation
+  x-api-slug: sitecloudidconversation-post
   description: Authentication required, with scope manage:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation
-  tags: Messaging,Site, Cloud, Conversation
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversation-post-openapi.md
-- name: Stride Send message to user
-  x-api-slug: stride
+- name: Stride - Send message to user
+  x-api-slug: sitecloudidconversationuseruseridmessage-post
   description: Authentication required, with scope participate:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/user/{userId}/message
-  tags: Messaging,Site, Cloud, Conversation, User, User, Message
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationuseruseridmessage-post-openapi.md
-- name: Stride Get conversation details
-  x-api-slug: stride
+- name: Stride - Get conversation details
+  x-api-slug: sitecloudidconversationconversationid-get
   description: Authentication required, with scope participate:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}
-  tags: Messaging,Site, Cloud, Conversation, Conversation
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationid-get-openapi.md
-- name: Stride Update conversation
-  x-api-slug: stride
+- name: Stride - Update conversation
+  x-api-slug: sitecloudidconversationconversationid-patch
   description: Authentication required, with scope manage:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}
-  tags: Messaging,Site, Cloud, Conversation, Conversation
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationid-patch-openapi.md
-- name: Stride Archive conversation
-  x-api-slug: stride
+- name: Stride - Archive conversation
+  x-api-slug: sitecloudidconversationconversationidarchive-put
   description: Authentication required, with scope manage:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/archive
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Archives
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationidarchive-put-openapi.md
-- name: Stride Upload a file
-  x-api-slug: stride
+- name: Stride - Upload a file
+  x-api-slug: sitecloudidconversationconversationidmedia-post
   description: Authentication required, with scope participate:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/media
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Media
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationidmedia-post-openapi.md
-- name: Stride Get a file
-  x-api-slug: stride
+- name: Stride - Get a file
+  x-api-slug: sitecloudidconversationconversationidmediamediaid-get
   description: Authentication required, with scope participate:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/media/{mediaId}
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Media, Media
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationidmediamediaid-get-openapi.md
-- name: Stride Get conversation history
-  x-api-slug: stride
-  description: "Authentication required, with scope participate:conversation\n\nThis
-    method returns messages after/before a given messageIDs or/and timestamps.\nIf
-    these parameters are omitted the method returns conversation\u2019s latest messages."
+- name: Stride - Get conversation history
+  x-api-slug: sitecloudidconversationconversationidmessage-get
+  description: |-
+    Authentication required, with scope participate:conversation
+
+    This method returns messages after/before a given messageIDs or/and timestamps.
+    If these parameters are omitted the method returns conversation???s latest messages.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/message
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Message
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationidmessage-get-openapi.md
-- name: Stride Send a message to a conversation
-  x-api-slug: stride
+- name: Stride - Send a message to a conversation
+  x-api-slug: sitecloudidconversationconversationidmessage-post
   description: Authentication required, with scope participate:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/message
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Message
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationidmessage-post-openapi.md
-- name: Stride Get latest messages for conversation
-  x-api-slug: stride
+- name: Stride - Get latest messages for conversation
+  x-api-slug: sitecloudidconversationconversationidmessagerecent-get
   description: Authentication required, with scope participate:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/message/recent
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Message, Recent
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationidmessagerecent-get-openapi.md
-- name: Stride Get message by id
-  x-api-slug: stride
+- name: Stride - Get message by id
+  x-api-slug: sitecloudidconversationconversationidmessagemessageid-get
   description: Authentication required, with scope participate:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/message/{messageId}
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Message, Message
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationidmessagemessageid-get-openapi.md
-- name: Stride Get conversation history contextually
-  x-api-slug: stride
+- name: Stride - Get conversation history contextually
+  x-api-slug: sitecloudidconversationconversationidmessagemessageidcontext-get
   description: |-
     Authentication required, with scope participate:conversation
 
@@ -171,45 +187,39 @@ apis:
     Default value for 'after' and 'before' query parameters is 0.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/message/{messageId}/context
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Message, Message, Context
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationidmessagemessageidcontext-get-openapi.md
-- name: Stride Get conversation roster
-  x-api-slug: stride
+- name: Stride - Get conversation roster
+  x-api-slug: sitecloudidconversationconversationidroster-get
   description: Authentication required, with scope participate:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/roster
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Roster
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationidroster-get-openapi.md
-- name: Stride Unarchive conversation
-  x-api-slug: stride
+- name: Stride - Unarchive conversation
+  x-api-slug: sitecloudidconversationconversationidunarchive-put
   description: Authentication required, with scope manage:conversation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
   humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com////site/{cloudId}/conversation/{conversationId}/unarchive
-  tags: Messaging,Site, Cloud, Conversation, Conversation, Unarchive, Archives
+  baseURL: https://api.atlassian.com//
+  tags: Technology, Mobile, SaaS, Chats, Messages, Relative Data, Service API, Relative
+    StreamRank, Streams, Networks
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/sitecloudidconversationconversationidunarchive-put-openapi.md
-- name: Stride
-  x-api-slug: stride
-  description: Stride is a cloud-based team business communication and collaboration
-    tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride
-    software is available to download onto computers running Windows, Mac or Linux,
-    as well as Android, iOS smartphones, and tablets
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg
-  humanURL: https://www.stride.com/
-  baseURL: https://api.atlassian.com//
-  tags: Stride
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/stride/master/_listings/stride/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://strava.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stride.stack.network
 - type: x-authentication
   url: https://developer.atlassian.com/cloud/stride/security/authentication/
 - type: x-blog
